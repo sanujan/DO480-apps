@@ -3,6 +3,7 @@ nameSuffix: -emea
 bases:
   - ../../base
 resources:
+- route-mng.yaml
 images:
   - name: mysql
     newName: registry.redhat.io/rhel8/mysql-80
