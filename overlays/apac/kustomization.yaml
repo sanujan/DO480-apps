@@ -1,4 +1,6 @@
 kind: Kustomization
+resources:
+- route.yaml
 bases:
   - ../../base
 nameSuffix: -apac
